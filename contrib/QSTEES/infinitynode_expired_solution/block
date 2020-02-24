@@ -1,0 +1,11 @@
+echo -------------------------------------------
+echo - Explorer Blockcount check
+echo -------------------------------------------
+echo
+echo "Current Wallet blockcount" && ./qsinbstees-cli getblockcount
+echo "Qsteesovate Explorer 1" && curl -s http://explorer.qsinbsteesovate.io/api/getblockcount
+echo
+echo "Qsteesovate Explorer 2" && curl -s http://explorer2.qsinbsteesovate.io/api/getblockcount
+echo
+echo "qsinbstees.ccore.online" && curl -s http://qsinbstees.ccore.online/api/getblockcount
+echo
